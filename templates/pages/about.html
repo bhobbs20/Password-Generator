@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="container my-5 py-5 z-depth-1">
+        <section class="px-md-5 mx-md-5 text-center dark-grey-text">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h3 class="font-weight-bold">Password Generator</h3>
+                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quam sapiente
+            molestiae
+            numquam quas, voluptates omnis nulla ea odio quia similique corrupti magnam, doloremque laborum.</p>
+                    <a class="btn btn-purple btn-md ml-0" href="{% url 'index' %}" role="button">Create a new password</a>
+                    <hr class="my-5">
+                    <p class="font-weight-bold">Follow me on:</p>
+                    <a href="#" class="mx-1 purple text-white" style="padding:2px; border-radius: 3px;" role="button"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="mx-1 purple text-white" style="padding:2px; border-radius: 3px;" role="button"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="mx-1 purple text-white" style="padding:2px; border-radius: 3px;" role="button"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="col-md-5 mb-4 mb-md-0" style="align-content: center;">
+                    <img src="https://www.safetydetectives.com/wp-content/uploads/2020/06/10-Best-Secure-Password-Managers-in-2020-with-Coupons.jpg" style="height:400px; width: 400px;" class="img-fluid " style="width:500px;" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+{% endblock %}
